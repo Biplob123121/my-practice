@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-bar{
+    background-color: blanchedalmond;
+    padding: 10px 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input, button{
+    margin-top: 10px;
+    font-size: 1.3em;
+    border: 2px solid lightgray;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+button{
+    background-color: orange;
+    font-weight: 700;
+    color: whitesmoke;
+}
